@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cli-progress": "^3.9.0",
     "exif": "^0.6.0",
     "get-image-data": "^5.0.0",
     "gifencoder": "^2.0.1",
