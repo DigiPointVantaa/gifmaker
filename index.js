@@ -1,12 +1,12 @@
 const
-// Modules
-GIFEncoder = require('gifencoder'),
-{ createCanvas, loadImage } = require('canvas'),
-fs = require('fs'),
-path = require('path'),
-sizeOf = require('image-size'),
-{ ExifImage } = require('exif');
-cliProgress = require('cli-progress');
+    // Modules
+    GIFEncoder = require('gifencoder'),
+    { createCanvas, loadImage } = require('canvas'),
+    fs = require('fs'),
+    path = require('path'),
+    sizeOf = require('image-size'),
+    { ExifImage } = require('exif');
+    cliProgress = require('cli-progress');
     // Methods
     readdir = dir => new Promise((resolve, reject) => fs.readdir(dir, (err, files) => err ? reject(err) : resolve(files))),
     readFile = filePath => new Promise((resolve, reject) => fs.readFile(filePath, (err, data) => err ? reject(err) : resolve(data))),
